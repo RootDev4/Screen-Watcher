@@ -13,7 +13,8 @@ Adjust settings.
 INTERVAL=0.5          # Checking interval in seconds
 REGION="0,0,600,300"  # Area to be monitored (start x, start y, end x, end y)
 ```
-Keep `REGION` as small as possible to avoid big images. 
+Keep `REGION` as small as possible to avoid big images.
+start x = 0 and start y = 0 are the coordinates of the top left corner of your screen.
 
 ## Run
 Run `chmod +x screen_watcher.sh` to make the file executable.
